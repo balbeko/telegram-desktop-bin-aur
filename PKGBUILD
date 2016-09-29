@@ -3,7 +3,7 @@
 # Contributor: agnotek <agnostic.sn [at]gmail.com>
 
 pkgname=telegram-desktop-bin
-pkgver=0.10.6
+pkgver=0.10.8
 pkgrel=1
 pkgdesc="Official desktop version of Telegram messaging app - Static binaries"
 arch=('i686' 'x86_64')
@@ -77,3 +77,15 @@ package() {
 		install -m644 "$srcdir/icon${icon_size}.png" "$icon_dir/telegram-desktop.png"
 	done
 }
+sha256sums=('32d1597d67a7ef519367e499fcc978da4cce104e370b3787853446d93b1533d6'
+            '4226167b476a75e844ddf0d429068e7e901bbde516810a7d4ca90f8405c01eef'
+            'd4cdad0d091c7e47811d8a26d55bbee492e7845e968c522e86f120815477e9eb'
+            'cf079b341461e2ed439b7c6ff13d6a31b09e3840df07e9811823fc4b12a23831'
+            '0ff2bd9d21a4a265cf414778321623ca92d37d8285e2ce81941bf742a40e1a64'
+            '9d6d999cbb9d711f36840256b7704593d77c470f22f367b80bf501a0dc155887'
+            'e9570cc49fa66ebabe250598671ffab7bcdbd9875b36763481d9f796b360cf92'
+            '94e21d6e7c30ae4f09a42937c46836454b955944ca565e0427f6d7494d034f6d'
+            '4226167b476a75e844ddf0d429068e7e901bbde516810a7d4ca90f8405c01eef'
+            '2339e94c159975c81a14b6df67a5fad1be02cf032ffb953215d895d1343a3ecb')
+sha256sums_i686=('b3b713eca3937d654cd8b2d1184096576d653042fe5ea420a4afa16e18db7893')
+sha256sums_x86_64=('416e8c43be1a099395bdbcf14810094f8f9498800084e36fa4246d4404653e0a')
